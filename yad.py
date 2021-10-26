@@ -21,7 +21,7 @@ def get_reports():
     LastDate = 0
     replacement = 'no'
 
-    mytools.yad_mcc(mytoken.mt['i-media'],project,DateFrom,DateTo,yad_metricks,type_reports,LastDate,replacement)
+    mytools.yad_mcc(mytoken.mt['i-media'], project, DateFrom, DateTo, yad_metricks, type_reports, LastDate, replacement)
 
 def main():
     get_reports()
